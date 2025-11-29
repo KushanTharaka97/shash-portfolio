@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Boxicons CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
     <nav>
@@ -32,10 +33,10 @@
         <div class="main-detail">
             <p data-aos="fade-left" data-aos-duration="1200" data-aos-delay="1200">Hello I'm</p>
             <h1 data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1400">Shashika Ariyarathna</h1>
-            <h4 data-aos="fade-in" data-aos-duration="1200" data-aos-delay="1600"> Assistant Lecturer</h4>
+            <h4 data-aos="fade-in" data-aos-duration="1200" data-aos-delay="1600">M.Sc. in Computer Science | Assistant Lecturer</h4>
 
             <div class="btn">
-                <a href="Shashika_Ariyarathna_Resume.pdf" download><button class="btn-1" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="1800">Download CV</button></a>
+                <a href="https://drive.google.com/file/d/1feESQz4u-3NXnR98TYYubbfQXGCq3KWE/view?usp=drive_link" target="_blank"><button class="btn-1" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="1800">Download CV</button></a>
                 <a href="#contact"><button class="btn-2" data-aos="zoom-in-left" data-aos-duration="1200" data-aos-delay="1800">Contact Me</button></a>
             </div>
 
@@ -75,20 +76,25 @@
     <section id="experience" class="section">
         <div class="section-container" data-aos="fade-up" data-aos-duration="1200">
             <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-item">
+            <div class="experience-card">
                 <h3>Temporary Assistant Lecturer</h3>
-                <p><strong>University of Sri Jayewardenepura, Sri Lanka</strong></p>
-                <p><em>Jan 2025 - Present</em></p>
-                <ul>
-                    <li>Conducted tutorial sessions for undergraduate courses including: Data Mining and Data Warehousing, Machine Learning and Big Data Analytics, Deep Learning and Neural Networks, System Analysis and Design, and more.</li>
-                    <li>Assisted with midterm examinations, including invigilation and grading.</li>
-                    <li>Provided academic support and supervised undergraduate thesis research.</li>
-                </ul>
+                <p><strong>University of Sri Jayewardenepura, Sri Lanka</strong> | <em>Jan 2025 - Present</em></p>
+                <p>Conducted tutorial sessions for the following undergraduate courses:</p>
+                <div class="tags-container">
+                    <span class="tag">Data Mining and Data Warehousing</span>
+                    <span class="tag">Machine Learning and Big Data Analytics</span>
+                    <span class="tag">Deep Learning and Neural Networks</span>
+                    <span class="tag">System Analysis and Design</span>
+                    <span class="tag">Object-Oriented Programming</span>
+                    <span class="tag">Data Structures and Algorithms</span>
+                    <span class="tag">Fundamentals of Computer Programming</span>
+                    <span class="tag">Web System and Technologies</span>
+                    <span class="tag">Human Computer Interaction</span>
+                </div>
             </div>
-            <div class="experience-item">
+            <div class="experience-card">
                 <h3>Associate Software Quality Assurance Engineer</h3>
-                <p><strong>Headstart (Pvt) Ltd, Dialog Axiata</strong></p>
-                <p><em>Jan 2024 – Dec 2024</em></p>
+                <p><strong>Headstart (Pvt) Ltd, Dialog Axiata</strong> | <em>Jan 2024 – Dec 2024</em></p>
                 <ul>
                     <li>Developed and executed test cases from BRD and SRS.</li>
                     <li>Improved mobile app reliability through multi-device testing.</li>
@@ -101,23 +107,31 @@
     <section id="research" class="section">
         <div class="section-container" data-aos="fade-up" data-aos-duration="1200">
             <h2 class="section-title">Research</h2>
-            <div class="research-subsection">
-                <h3>Research Interests</h3>
-                <ul>
-                    <li>Health informatics and public health</li>
-                    <li>Computational biology and genomics</li>
-                    <li>Biostatistics and data-driven medical decision support</li>
-                    <li>Machine learning, deep learning and explainable AI</li>
-                    <li>Quantum-classical hybrid methods for bioinformatics</li>
-                </ul>
+            
+            <div class="research-category">
+                <h3 class="category-title"><i class='bx bxs-flask'></i> Research Experience</h3>
+                <div class="publication-card">
+                     <div class="card-body">
+                        <h4 class="publication-title">A Quantum-Classical Hybrid Architecture for Disease Classification and Risk Variant Identification in Alzheimer's Using Single Nucleotide Polymorphisms (SNPs)</h4>
+                        <p class="publication-venue">Department of Computer Science, University of Sri Jayewardenepura, Sri Lanka</p>
+                    </div>
+                </div>
             </div>
-            <div class="research-subsection">
-                <h3>Research Experience</h3>
-                <p>A Quantum-Classical Hybrid Architecture for Disease Classification and Risk Variant Identification in Alzheimer's Using Single Nucleotide Polymorphisms (SNPs)</p>
-            </div>
-            <div class="research-subsection">
-                <h3>Publications</h3>
-                <p>W. S. S. Ariyarathna, et al. "Artificial Intelligence in Alzheimer's Disease Detection: A Systematic Review of Advancements and Trends," AAIML Journal, accepted for publication, 2025.</p>
+
+            <div class="research-category">
+                <h3 class="category-title"><i class='bx bxs-file-blank'></i> Publications</h3>
+                <div class="publication-card">
+                    <div class="card-header">
+                        <span class="paper-type">Journal Paper</span>
+                        <span class="status-badge accepted">Accepted</span>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="publication-title">Artificial Intelligence in Alzheimer's Disease Detection: A Systematic Review of Advancements and Trends</h4>
+                        <p class="authors">W. S. S. Ariyarathna, N. H. Wanigasingha, U. Dikwatta, and M. K. A. Ariyaratne</p>
+                        <p class="publication-venue">AAIML Journal (Advances in Artificial Intelligence and Machine Learning Journal), 2025</p>
+                        <p class="publication-description">A comprehensive systematic review highlighting current AI techniques used in early Alzheimer's detection, emerging trends, and key research gaps.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -127,19 +141,57 @@
             <h2 class="section-title">Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
-                    <h3>Visualize Drought Impact</h3>
-                    <p>Visualize the impact of drought frequency based on groundwater levels in Colorado State, identifying affected home care health agencies.</p>
-                    <a href="#" class="btn-secondary">View Details</a>
+                    <div class="card-body">
+                        <h4 class="project-title">Visualize Drought Impact on Colorado</h4>
+                        <p class="project-description">An individual project to visualize the impact of drought frequency based on groundwater levels in Colorado, and identify affected home care health agencies.</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="tags">
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">Python</span>
+                             <span class="tag">QGIS</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>Smart WiFi Home System</h3>
-                    <p>Implemented a smart home automation system using Arduino IDE and Google Home integration for seamless device control.</p>
-                    <a href="#" class="btn-secondary">View Details</a>
+                    <div class="card-body">
+                        <h4 class="project-title">Smart WiFi Home System</h4>
+                        <p class="project-description">A group project to implement a smart home automation system using Arduino IDE and Google Home integration for seamless device control.</p>
+                    </div>
+                     <div class="card-footer">
+                        <div class="tags">
+                            <span class="tag">IoT</span>
+                            <span class="tag">Arduino</span>
+                             <span class="tag">Google Home</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <h3>OrangeHRM Automation</h3>
-                    <p>Developed automation scripts using Selenium and TestNG to validate HR management workflows in OrangeHRM.</p>
-                    <a href="#" class="btn-secondary">View Details</a>
+                    <div class="card-body">
+                        <h4 class="project-title">OrangeHRM Automation</h4>
+                        <p class="project-description">Developed automation scripts using Selenium and TestNG to validate HR management workflows in the OrangeHRM platform.</p>
+                    </div>
+                     <div class="card-footer">
+                        <div class="tags">
+                            <span class="tag">Test Automation</span>
+                            <span class="tag">Selenium</span>
+                             <span class="tag">Java</span>
+                             <span class="tag">TestNG</span>
+                        </div>
+                    </div>
+                </div>
+                 <div class="project-card">
+                    <div class="card-body">
+                        <h4 class="project-title">Bank Loan Management System</h4>
+                        <p class="project-description">Created a full design document including purpose, objectives, high-level system structures, databases, flow charts, and various UML diagrams.</p>
+                    </div>
+                     <div class="card-footer">
+                        <div class="tags">
+                            <span class="tag">System Design</span>
+                            <span class="tag">UML</span>
+                             <span class="tag">Software Architecture</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -148,31 +200,24 @@
     <section id="skills" class="section">
         <div class="section-container" data-aos="fade-up" data-aos-duration="1200">
             <h2 class="section-title">Key Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Machine Learning/Data Science</h3>
-                    <p>Scikit-learn, Keras, TensorFlow</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Languages</h3>
-                    <p>Python, C, R, Java</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Testing</h3>
-                    <p>Apache JMeter, Selenium, Cypress, Playwright, Postman</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Data Engineering</h3>
-                    <p>Python, QGIS</p>
-                </div>
-                <div class="skill-category">
-                    <h3>Cloud Computing</h3>
-                    <p>AWS Load Balancing, Instances, Auto scaling</p>
-                </div>
-                <div class="skill-category">
-                    <h3>DevOps</h3>
-                    <p>Docker, Jenkins</p>
-                </div>
+            <div class="skills-container">
+                <div class="skill-item"><i class="devicon-python-plain"></i><span>Python</span></div>
+                <div class="skill-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                <div class="skill-item"><i class="devicon-c-plain"></i><span>C</span></div>
+                <div class="skill-item"><i class="devicon-r-plain"></i><span>R</span></div>
+                <div class="skill-item"><i class="devicon-tensorflow-original"></i><span>TensorFlow</span></div>
+                <div class="skill-item"><span>Scikit-learn</span></div>
+                <div class="skill-item"><span>Keras</span></div>
+                <div class="skill-item"><i class="devicon-selenium-original"></i><span>Selenium</span></div>
+                <div class="skill-item"><span>Apache JMeter</span></div>
+                <div class="skill-item"><span>Cypress</span></div>
+                 <div class="skill-item"><span>Playwright</span></div>
+                <div class="skill-item"><span>Postman</span></div>
+                <div class="skill-item"><i class="devicon-qgis-plain"></i><span>QGIS</span></div>
+                <div class="skill-item"><i class="devicon-amazonwebservices-original"></i><span>AWS</span></div>
+                <div class="skill-item"><i class="devicon-docker-plain"></i><span>Docker</span></div>
+                <div class="skill-item"><i class="devicon-jenkins-line"></i><span>Jenkins</span></div>
+                <div class="skill-item"><i class="devicon-latex-original"></i><span>Latex</span></div>
             </div>
         </div>
     </section>
